@@ -1,0 +1,483 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://preview.colorlib.com/theme/theestate/images/home_slider_bcg.jpg);
+}
+header .container {
+  border-bottom: 1px solid #AEAEAD;
+}
+header .container .navbar .container-fluid .navbar-brand {
+  text-align: center;
+  color: white;
+}
+header .container .navbar .container-fluid .collapse .navbar-nav {
+  gap: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+}
+header .container .navbar .container-fluid .collapse .number {
+  padding: 10px 45px;
+  background-color: #FD794F;
+  color: white;
+  font-size: 18px;
+}
+header .header-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+header .header-content p {
+  font-size: 100px;
+  letter-spacing: 2px;
+  color: white;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 992px) and (min-width: 577px) {
+  header {
+    background-color: transparent;
+    border-bottom: 1px solid #AEAEAD;
+    position: relative;
+    z-index: 11;
+  }
+  header .container .navbar .navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .container .navbar .navbar-brand img {
+    width: 70%;
+  }
+  header .container .navbar .navbar-brand p {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 18px;
+  }
+  header .container .navbar .nav-number {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) and (min-width: 300px) {
+  header {
+    background-color: transparent;
+    border-bottom: 1px solid #AEAEAD;
+    position: relative;
+    z-index: 11;
+  }
+  header .container .navbar .navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .container .navbar .navbar-brand img {
+    width: 40%;
+  }
+  header .container .navbar .navbar-brand p {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+  }
+  header .container .navbar .collapse .navbar-nav .nav-item .nav-link {
+    font-weight: bold;
+    color: white;
+  }
+  header .container .navbar .number {
+    display: none;
+  }
+  main #section-a {
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+  }
+  main #section-a .secA-content {
+    width: 80%;
+    background-color: bisque;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 0;
+  }
+  main #section-a .secA-content .secAHeader-row .col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main #section-a .secA-content .secAHeader-row .col-12 .secA-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main #section-a .secA-content .secAHeader-row .col-12 .secA-header .red-line {
+    width: 5px;
+    height: 20px;
+    background-color: #FD794F;
+  }
+  main #section-a .secA-content .secAHeader-row .col-12 .secA-header .header-content {
+    text-align: center;
+  }
+  main #section-a .secA-content .secAHeader-row .col-12 .secA-header .header-content h4 {
+    color: #0D1D41;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  main #section-a .secA-content .secAHeader-row .col-12 .secA-header .header-content p {
+    column-rule: #B0B1B3;
+  }
+  main #section-a .secA-content .secA-card {
+    width: 100%;
+    padding: 0;
+    background-color: #FD794F;
+  }
+  main #section-a .secA-content .secA-card .col-xl-4 {
+    background-color: #EDEFF5;
+    padding: 0;
+    margin: 5px;
+    width: 49%;
+  }
+  main #section-a .secA-content .secA-card .col-xl-4 .col-content {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-img {
+    width: 100%;
+  }
+  main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-img img {
+    width: 100%;
+  }
+  main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-text {
+    padding: 20px;
+  }
+  main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-text .col-icon {
+    gap: 10px;
+  }
+  main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-text .col-icon .col-xl-4 {
+    padding: 5px;
+  }
+  main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-price {
+    width: 100%;
+    background-color: #1E2C4E;
+  }
+  main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-price .container {
+    width: 80%;
+    display: flex;
+    gap: 20px;
+  }
+  main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-price .container .footer-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-price .container .footer-icon i {
+    font-size: 20px;
+    color: orange;
+  }
+  main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-price .container .price {
+    cursor: pointer;
+  }
+  main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-price .container .price p {
+    margin: 0;
+    color: white;
+  }
+  main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-price .container .price span {
+    font-size: 15px;
+    color: white;
+  }
+  main #section-b {
+    width: 100%;
+    background-color: aqua;
+    background: url(https://preview.colorlib.com/theme/theestate/images/testimonials_background.jpg);
+    padding: 40px;
+  }
+  main #section-b .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-direction: column;
+  }
+  main #section-b .container .secB-header {
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin: 60px;
+  }
+  main #section-b .container .secB-header .red-line {
+    width: 5px;
+    height: 20px;
+    background-color: #FD794F;
+  }
+  main #section-b .container .secB-content {
+    width: 80%;
+  }
+  main #section-b .container .secB-content p {
+    font-size: 20px;
+    color: white;
+  }
+  main #section-b .container .secB-footer {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  main #section-b .container .secB-footer img {
+    border-radius: 50%;
+    margin-bottom: 5px;
+  }
+  main #section-b .container .secB-footer h5 {
+    color: #FD794F;
+  }
+  main #section-b .container .secB-footer p {
+    color: white;
+  }
+  main #section-c {
+    width: 100%;
+    background: url(https://preview.colorlib.com/theme/theestate/images/world.png);
+  }
+  main #section-c .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    flex-direction: column;
+  }
+  main #section-c .container .secC-header {
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 60px;
+  }
+  main #section-c .container .secC-header .red-line {
+    width: 5px;
+    height: 20px;
+    background-color: #FD794F;
+  }
+  main #section-c .container .row {
+    margin-bottom: 40px;
+  }
+  main #section-c .container .row .col-2 img {
+    width: 100%;
+  }
+}
+main #section-a {
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+}
+main #section-a .secA-content {
+  width: 80%;
+  background-color: bisque;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 0;
+}
+main #section-a .secA-content .secAHeader-row .col-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main #section-a .secA-content .secAHeader-row .col-12 .secA-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #section-a .secA-content .secAHeader-row .col-12 .secA-header .red-line {
+  width: 5px;
+  height: 20px;
+  background-color: #FD794F;
+}
+main #section-a .secA-content .secAHeader-row .col-12 .secA-header .header-content {
+  text-align: center;
+}
+main #section-a .secA-content .secAHeader-row .col-12 .secA-header .header-content h4 {
+  color: #0D1D41;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+main #section-a .secA-content .secAHeader-row .col-12 .secA-header .header-content p {
+  column-rule: #B0B1B3;
+}
+main #section-a .secA-content .secA-card {
+  width: 100%;
+  padding: 0;
+  background-color: #FD794F;
+}
+main #section-a .secA-content .secA-card .col-xl-4 {
+  background-color: #EDEFF5;
+  padding: 0;
+  margin: 5px;
+  width: 32%;
+}
+main #section-a .secA-content .secA-card .col-xl-4 .col-content {
+  flex-direction: column;
+  justify-content: space-between;
+}
+main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-img {
+  width: 100%;
+}
+main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-img img {
+  width: 100%;
+}
+main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-text {
+  padding: 20px;
+}
+main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-text .col-icon {
+  gap: 10px;
+}
+main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-text .col-icon .col-xl-4 {
+  padding: 5px;
+}
+main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-price {
+  width: 100%;
+  background-color: #1E2C4E;
+}
+main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-price .container {
+  width: 80%;
+  display: flex;
+  gap: 20px;
+}
+main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-price .container .footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-price .container .footer-icon i {
+  font-size: 30px;
+  color: orange;
+}
+main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-price .container .price {
+  cursor: pointer;
+}
+main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-price .container .price p {
+  margin: 0;
+  color: white;
+}
+main #section-a .secA-content .secA-card .col-xl-4 .col-content .col-price .container .price span {
+  font-size: 25px;
+  color: white;
+}
+main #section-b {
+  width: 100%;
+  background-color: aqua;
+  background: url(https://preview.colorlib.com/theme/theestate/images/testimonials_background.jpg);
+  padding: 40px;
+}
+main #section-b .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  flex-direction: column;
+}
+main #section-b .container .secB-header {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin: 60px;
+}
+main #section-b .container .secB-header .red-line {
+  width: 5px;
+  height: 20px;
+  background-color: #FD794F;
+}
+main #section-b .container .secB-content {
+  width: 80%;
+}
+main #section-b .container .secB-content p {
+  font-size: 20px;
+  color: white;
+}
+main #section-b .container .secB-footer {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+main #section-b .container .secB-footer img {
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+main #section-b .container .secB-footer h5 {
+  color: #FD794F;
+}
+main #section-b .container .secB-footer p {
+  color: white;
+}
+main #section-c {
+  width: 100%;
+  background: url(https://preview.colorlib.com/theme/theestate/images/world.png);
+}
+main #section-c .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  flex-direction: column;
+}
+main #section-c .container .secC-header {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 60px;
+}
+main #section-c .container .secC-header .red-line {
+  width: 5px;
+  height: 20px;
+  background-color: #FD794F;
+}
+main #section-c .container .row {
+  margin-bottom: 40px;
+}
+main #section-c .container .row .col-2 img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+  background-color: #040B1D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+footer .container p {
+  color: #485165;
+}
